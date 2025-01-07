@@ -460,7 +460,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(53, 89, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px rgba(67, 115, 179, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -470,7 +470,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(89, 147, 235, 0.561) !important;
+  box-shadow: 0 4px 4px 5px rgba(98, 154, 238, 0.561) !important;
 }
 
 .blog-card {
@@ -518,14 +518,14 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #1e9ad0 !important;
-  border-color: #1e9ad0 !important;
+  background-color: #448bee !important;
+  border-color: #448bee!important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #448bee !important;
-  border-color: #3883eb !important;
+  background-color: #1e9ad0  !important;
+  border-color: #1e9ad0  !important;
 }
 .btn:focus {
   outline: none !important;
@@ -601,7 +601,7 @@ button:focus {
 /* --------- */
 /* Resume */
 /* --------- */
-
+  
 .resume-section {
   position: relative !important;
   padding-top: 110px !important;

@@ -28,7 +28,7 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(130, 163, 235)" }}>
+          <p style={{ color: "rgb(60, 110, 218)" }}>
             "Experience is the name everyone gives to their mistakes"{" "}
           </p>
           <footer className="blockquote-footer">Oscar Wilde</footer>
