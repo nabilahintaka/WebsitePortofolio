@@ -67,7 +67,7 @@ function Projects() {
             />
           </Col> 
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={discord}
               isBlog={false}
@@ -87,7 +87,7 @@ function Projects() {
               ghLink="https://github.com/nabilahintaka/ReminderBot"
               demoLink=""
             />
-          </Col> */}
+          </Col>
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
