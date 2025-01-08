@@ -27,7 +27,7 @@ function AboutCard() {
               <ImPointRight /> Enjoying my favorite songs 
             </li>
             <li className="about-activity">
-              <ImPointRight /> Enjoying my favorite songs 
+              <ImPointRight /> Doing some relaxing games
             </li>
           </ul>
 
