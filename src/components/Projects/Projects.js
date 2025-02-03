@@ -7,8 +7,8 @@ import Python from "../../Assets/Projects/Python.png";
 import BigQuery from "../../Assets/Projects/BigQuery.png";
 import WebScrap from "../../Assets/Projects/WebScrap.png";
 import discord from "../../Assets/Projects/discord.png";
-// import autoattendance from "../../Assets/Projects/autoattendance.png";
-// import mail4spam from "../../Assets/Projects/mail4spam.png";
+import discord from "../../Assets/Projects/bookshelf.png";
+import discord from "../../Assets/Projects/dnike.png";
 
 
 function Projects() {
@@ -99,10 +99,9 @@ function Projects() {
               demoLink=""
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={elib}
+              imgPath={bookshelf}
               isBlog={false}
               title="Bookshelf Apps"
               description="Simple CRUD app for Bookshelf with JavaSript. Thiss apps can store, move and delete data using a web storage"
@@ -110,6 +109,18 @@ function Projects() {
               demoLink="https://bookshelf.mizea.my.id/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dnike}
+              isBlog={false}
+              title="DNike"
+              description="DNike is a website store that sell a shoes, users can view products, buy and give testimonials. This is a project that i created for University assignment"
+              ghLink="https://github.com/nabilahintaka/DNike"
+              demoLink="https://dnike.mizea.my.id/"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
