@@ -69,6 +69,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={WebScrap}
+              isBlog={false}
+              title="Web Scraping"
+              description="Data collection using Web Scraping to analyze skincare sales from female daily"
+              ghLink="https://github.com/nabilahintaka/Web-Scraping-Portofolio2"
+              demoLink=""
+            />
+          </Col> 
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={discord}
               isBlog={false}
               title="Monitoring Bot"
@@ -89,16 +100,16 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={elib}
               isBlog={false}
-              title="Simple CRUD app For E-Library"
-              description="Simple CRUD app For E-Library built with nativ PHP and MySQL. It only store the string data not the actual file, for the actual file is stored on google drive. I also build this app with another language, such as Java (JSP, JSF, Android). This is my university project/task."
-              ghLink="https://github.com/Schutz3/ezlibrary"
-              // demoLink="" <--------Please include a demo link here
+              title="Bookshelf Apps"
+              description="Simple CRUD app for Bookshelf with JavaSript. Thiss apps can store, move and delete data using a web storage"
+              ghLink="https://github.com/nabilahintaka/BookshelfApps"
+              demoLink="https://bookshelf.mizea.my.id/"
             />
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     </Container>
