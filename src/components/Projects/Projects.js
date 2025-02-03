@@ -7,8 +7,8 @@ import Python from "../../Assets/Projects/Python.png";
 import BigQuery from "../../Assets/Projects/BigQuery.png";
 import WebScrap from "../../Assets/Projects/WebScrap.png";
 import discord from "../../Assets/Projects/discord.png";
-import discord from "../../Assets/Projects/bookshelf.png";
-import discord from "../../Assets/Projects/dnike.png";
+import bookshelf from "../../Assets/Projects/bookshelf.png";
+import dnike from "../../Assets/Projects/dnike.png";
 
 
 function Projects() {
