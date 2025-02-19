@@ -80,6 +80,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={WebScrap}
+              isBlog={false}
+              title="Video Game Sales Analysis Dashboard"
+              description="Data analysis and visualization of video games sales based on genre, platform and publisher in various region, and creating a dashboard"
+              ghLink="https://github.com/nabilahintaka/Video-Game-Sales-Analysis"
+              demoLink=""
+            />
+          </Col> 
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={discord}
               isBlog={false}
               title="Monitoring Bot"
