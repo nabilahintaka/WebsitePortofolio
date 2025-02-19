@@ -1,58 +1,64 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { CgCPlusPlus } from "react-icons/cg";
 import {
-  SiVisualstudiocode,
-  SiVercel,
-  SiTableau,
-  SiLooker,
-  SiFigma,
-  SiGithub,
-  SiTrello,
-  SiNotion,
+  DiPython,
+  DiHtml5,
+  DiCss3,
+  DiJavascript1,
+  DiJava,
+  DiMongodb,
 
-  SiPostman,
-  SiSlack,
-  SiDebian,
-  SiWindows11,
-  SiDocker,
-  SiJenkins,
+  DiGit,
+  DiReact,
+  DiNodejs,
+  DiAndroid,
+  DiLaravel,
+  DiCodeigniter,
+} from "react-icons/di";
+import {
+  SiPostgresql,
+  SiMysql,
+  SiApacheairflow,
+  
+  SiRedis,
+  SiFirebase,
+  SiNextdotjs,
 } from "react-icons/si";
-import { FaDocker } from "react-icons/fa";
 
-function Toolstack() {
+function Techstack() {
   return (
-     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTableau />
+        <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiLooker />
+        <DiMongodb/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFigma />
+       <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTrello  />
+      <SiApacheairflow />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNotion/>
+        <DiHtml5/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGithub />
+        <DiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaDocker />
+        <DiJava />
       </Col>
-
-
+      
     </Row>
   );
 }
 
-export default Toolstack;
+export default Techstack;
