@@ -9,6 +9,7 @@ import WebScrap from "../../Assets/Projects/WebScrap.png";
 import discord from "../../Assets/Projects/discord.png";
 import bookshelf from "../../Assets/Projects/bookshelf.png";
 import dnike from "../../Assets/Projects/dnike.png";
+import games from "../../Assets/Projects/games.png";
 
 
 function Projects() {
@@ -80,7 +81,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={WebScrap}
+              imgPath={games}
               isBlog={false}
               title="Video Game Sales Analysis Dashboard"
               description="Data analysis and visualization of video games sales based on genre, platform and publisher in various region, and creating a dashboard"
