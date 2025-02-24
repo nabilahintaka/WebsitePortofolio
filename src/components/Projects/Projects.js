@@ -24,6 +24,84 @@ function Projects() {
           Here are a few projects I've worked on recently. 
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={electricity}
+              isBlog={false}
+              title="Electricity Energy Analysis Dashboard"
+              description="Developing an automated data pipeline system (ETL) by combining Apache, Pandas, NeonDB, PostgreSQL and Tableau"
+              ghLink="https://github.com/nabilahintaka/Electricity-Energy-Analyst"
+              demoLink=""
+            />
+          </Col> 
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={games}
+              isBlog={false}
+              title="Video Game Sales Analysis Dashboard"
+              description="Data analysis and visualization of video games sales based on genre, platform and publisher in various region, and creating a dashboard"
+              ghLink="https://github.com/nabilahintaka/Video-Game-Sales-Analysis-Portofolio"
+              demoLink=""
+            />
+          </Col> 
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cart}
+              isBlog={false}
+              title="Data Warehouse"
+              description="This project is for create a data Warehouse design and sales business process for the company's analysis"
+              ghLink="https://github.com/nabilahintaka/Data-Warehouse"
+              demoLink=""
+            />
+          </Col> 
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={discord}
+              isBlog={false}
+              title="Monitoring Bot"
+              description="A discord bot for monitoring. I build this bot for monitoring steam status and game which is FiveM monitoring log connection built with python"
+              ghLink="https://github.com/slizea/DiscordBot"
+              demoLink="" 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={discord}
+              isBlog={false}
+              title="ToDo Bot"
+              description="A simple CRUD discord bot for reminder, user can add, remove, view a todo list and built with Python"
+              ghLink="https://github.com/nabilahintaka/ReminderBot"
+              demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={WebScrap}
+              isBlog={false}
+              title="Web Scraping"
+              description="Data collection using Web Scraping to analyze product sales on e-commerce Tokopedia"
+              ghLink="https://github.com/nabilahintaka/Web-Scraping-Portofolio"
+              demoLink=""
+            />
+          </Col> 
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={WebScrap}
+              isBlog={false}
+              title="Web Scraping"
+              description="Data collection using Web Scraping to analyze skincare sales from female daily"
+              ghLink="https://github.com/nabilahintaka/Web-Scraping-Portofolio2"
+              demoLink=""
+            />
+          </Col> 
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={postgreSQL}
@@ -57,60 +135,6 @@ function Projects() {
             />
           </Col> 
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={WebScrap}
-              isBlog={false}
-              title="Web Scraping"
-              description="Data collection using Web Scraping to analyze product sales on e-commerce Tokopedia"
-              ghLink="https://github.com/nabilahintaka/Web-Scraping-Portofolio"
-              demoLink=""
-            />
-          </Col> 
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={WebScrap}
-              isBlog={false}
-              title="Web Scraping"
-              description="Data collection using Web Scraping to analyze skincare sales from female daily"
-              ghLink="https://github.com/nabilahintaka/Web-Scraping-Portofolio2"
-              demoLink=""
-            />
-          </Col> 
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={games}
-              isBlog={false}
-              title="Video Game Sales Analysis Dashboard"
-              description="Data analysis and visualization of video games sales based on genre, platform and publisher in various region, and creating a dashboard"
-              ghLink="https://github.com/nabilahintaka/Video-Game-Sales-Analysis"
-              demoLink=""
-            />
-          </Col> 
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={discord}
-              isBlog={false}
-              title="Monitoring Bot"
-              description="A discord bot for monitoring. I build this bot for monitoring steam status and game which is FiveM monitoring log connection built with python"
-              ghLink="https://github.com/slizea/DiscordBot"
-              demoLink="" 
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={discord}
-              isBlog={false}
-              title="ToDo Bot"
-              description="A simple CRUD discord bot for reminder, user can add, remove, view a todo list and built with Python"
-              ghLink="https://github.com/nabilahintaka/ReminderBot"
-              demoLink=""
-            />
-          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bookshelf}
