@@ -10,6 +10,8 @@ import discord from "../../Assets/Projects/discord.png";
 import bookshelf from "../../Assets/Projects/bookshelf.png";
 import dnike from "../../Assets/Projects/dnike.png";
 import games from "../../Assets/Projects/games.png";
+import electricity from "../../Assets/Projects/electricity.png";
+import cart from "../../Assets/Projects/cart.png";
 
 
 function Projects() {
