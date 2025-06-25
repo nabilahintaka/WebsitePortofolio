@@ -34,6 +34,7 @@ function Projects() {
             <ProjectCard
               imgPath={electricity}
               isBlog={false}
+              hasGithub={true}
               title="Electricity Energy Analysis Dashboard"
               description="Developing an automated data pipeline system (ETL) by combining Apache, Pandas, NeonDB, PostgreSQL and Tableau"
               ghLink="https://github.com/nabilahintaka/Electricity-Energy-Analyst"
@@ -45,6 +46,7 @@ function Projects() {
             <ProjectCard
               imgPath={games}
               isBlog={false}
+              hasGithub={true}
               title="Video Game Sales Analysis Dashboard"
               description="Data analysis and visualization of video games sales based on genre, platform and publisher in various region, and creating a dashboard"
               ghLink="https://github.com/nabilahintaka/Video-Game-Sales-Analysis-Portofolio"
@@ -56,6 +58,7 @@ function Projects() {
             <ProjectCard
               imgPath={cart}
               isBlog={false}
+              hasGithub={true}
               title="Data Warehouse"
               description="This project is for create a data Warehouse design and sales business process for the company's analysis"
               ghLink="https://github.com/nabilahintaka/Data-Warehouse"
@@ -67,6 +70,7 @@ function Projects() {
             <ProjectCard
               imgPath={discord}
               isBlog={false}
+              hasGithub={true}
               title="Monitoring Bot"
               description="A discord bot for monitoring. I build this bot for monitoring steam status and game which is FiveM monitoring log connection built with python"
               ghLink="https://github.com/slizea/DiscordBot"
@@ -78,6 +82,7 @@ function Projects() {
             <ProjectCard
               imgPath={discord}
               isBlog={false}
+              hasGithub={true}
               title="ToDo Bot"
               description="A simple CRUD discord bot for reminder, user can add, remove, view a todo list and built with Python"
               ghLink="https://github.com/nabilahintaka/ReminderBot"
@@ -89,6 +94,7 @@ function Projects() {
             <ProjectCard
               imgPath={WebScrap}
               isBlog={false}
+              hasGithub={true}
               title="Web Scraping"
               description="Data collection using Web Scraping to analyze product sales on e-commerce Tokopedia"
               ghLink="https://github.com/nabilahintaka/Web-Scraping-Portofolio"
@@ -100,6 +106,7 @@ function Projects() {
             <ProjectCard
               imgPath={WebScrap}
               isBlog={false}
+              hasGithub={true}
               title="Web Scraping"
               description="Data collection using Web Scraping to analyze skincare sales from female daily"
               ghLink="https://github.com/nabilahintaka/Web-Scraping-Portofolio2"
@@ -111,6 +118,7 @@ function Projects() {
             <ProjectCard
               imgPath={postgreSQL}
               isBlog={false}
+              hasGithub={true}
               title="PostgreSQL - Movies Data"
               description="Movie data that has been normalized to 3NF and perform some data testing."
               ghLink="https://github.com/nabilahintaka/PostgreSQL-Portofolio"
@@ -122,6 +130,7 @@ function Projects() {
             <ProjectCard
               imgPath={BigQuery}
               isBlog={false}
+              hasGithub={true}
               title="BigQuery - GoBike"
               description="San Francisco Ford GoBike Share data set from Google BigQuery"
               ghLink="https://github.com/nabilahintaka/BigQuery-Portofolio"
@@ -133,6 +142,7 @@ function Projects() {
             <ProjectCard
               imgPath={Python}
               isBlog={false}
+              hasGithub={true}
               title="Python - Shopping Cart"
               description="a simple shopping cart program that allows users to add, remove, and view items in their shopping cart."
               ghLink="https://github.com/nabilahintaka/Python-Portofolio"
@@ -143,7 +153,8 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bookshelf}
-              isBlog={false}
+              isBlog={true}
+              hasGithub={true}
               title="Bookshelf Apps"
               description="Simple CRUD app for Bookshelf with JavaSript. Thiss apps can store, move and delete data using a web storage"
               ghLink="https://github.com/nabilahintaka/BookshelfApps"
@@ -154,7 +165,8 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={dnike}
-              isBlog={false}
+              isBlog={true}
+              hasGithub={true}
               title="DNike"
               description="DNike is a website store that sell a shoes, users can view products, buy and give testimonials. This is a project that i created for University assignment"
               ghLink="https://github.com/nabilahintaka/DNike"
