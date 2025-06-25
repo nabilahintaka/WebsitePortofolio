@@ -15,7 +15,7 @@ import cart from "../../Assets/Projects/cart.png";
 import telkom from "../../Assets/Projects/telkom.png";
 import metrotv from "../../Assets/Projects/metrotv.png";
 import dreamhome from "../../Assets/Projects/dreamhome.png";
-import avatar from "../../Assets/Projects/avatar.png";
+import avatar from "../../Assets/avatar.png";
 
 function Projects() {
   return (
