@@ -15,7 +15,7 @@ import cart from "../../Assets/Projects/cart.png";
 import telkom from "../../Assets/Projects/telkom.png";
 import metrotv from "../../Assets/Projects/metrotv.png";
 import dreamhome from "../../Assets/Projects/dreamhome.png";
-
+import avatar from "../../Assets/Projects/avatar.png";
 
 function Projects() {
   return (
@@ -29,6 +29,18 @@ function Projects() {
           Here are a few projects I've worked on recently. 
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={avatar}
+              isBlog={false}
+              hasGithub={true}
+              title="Website Portofolio"
+              description="Developing website portofolio using ReactJS"
+              ghLink="https://github.com/nabilahintaka/WebsitePortofolio"
+              demoLink="https://intaka.my.id/"
+            />
+          </Col> 
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -153,7 +165,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bookshelf}
-              isBlog={true}
+              isBlog={false}
               hasGithub={true}
               title="Bookshelf Apps"
               description="Simple CRUD app for Bookshelf with JavaSript. Thiss apps can store, move and delete data using a web storage"
@@ -165,7 +177,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={dnike}
-              isBlog={true}
+              isBlog={false}
               hasGithub={true}
               title="DNike"
               description="DNike is a website store that sell a shoes, users can view products, buy and give testimonials. This is a project that i created for University assignment"
