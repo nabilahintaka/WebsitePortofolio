@@ -27,13 +27,16 @@ function ProjectCards(props) {
           <Card.Text style={{ textAlign: "justify" }}>
             {props.description}
           </Card.Text>
-          <Button
-            variant="primary"
-            onClick={handleShow}
-            style={{ ...purpleStyle, marginRight: "10px" }}
-          >
-            View
-          </Button>
+          {/* Conditionally render the "View" button */}
+          {props.hasModal && (
+            <Button
+              variant="primary"
+              onClick={handleShow}
+              style={{ ...purpleStyle, marginRight: "10px" }}
+            >
+              View
+            </Button>
+          )}
           <Button variant="primary" href={props.ghLink} target="_blank">
             <BsGithub /> &nbsp;
             {props.isBlog ? "Blog" : "GitHub"}

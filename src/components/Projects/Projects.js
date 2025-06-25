@@ -12,6 +12,9 @@ import dnike from "../../Assets/Projects/dnike.png";
 import games from "../../Assets/Projects/games.png";
 import electricity from "../../Assets/Projects/electricity.png";
 import cart from "../../Assets/Projects/cart.png";
+import telkom from "../../Assets/Projects/telkom.png";
+import metrotv from "../../Assets/Projects/metrotv.png";
+import dreamhome from "../../Assets/Projects/dreamhome.png";
 
 
 function Projects() {
@@ -156,6 +159,39 @@ function Projects() {
               description="DNike is a website store that sell a shoes, users can view products, buy and give testimonials. This is a project that i created for University assignment"
               ghLink="https://github.com/nabilahintaka/DNike"
               demoLink="https://dnike.mizea.my.id/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={metrotv}
+              isBlog={false}
+              title="Metro TV"
+              description="Metro TV Attandance is for employee to submit their attandance or check attandance history."
+              demoLink="https://nabilahintaka8.wixsite.com/my-site/metro-tv"
+              hasModal={true}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={telkom}
+              isBlog={false}
+              title="Telkom Indonesia"
+              description="Insight is Website Platform created for DSC Management or Insight teams included a several teams in Telkom Indonesia"
+              demoLink="https://nabilahintaka8.wixsite.com/my-site/telkom-indonesia"
+              hasModal={true}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dreamhome}
+              isBlog={false}
+              title="DreamHome"
+              description="DreamHome is a concept Mobile Application Platform created for my Advanced In Business Application Development Final Project Exam."
+              demoLink="https://nabilahintaka8.wixsite.com/my-site/copy-of-baby-take-care"
+              hasModal={true}
             />
           </Col>
 
